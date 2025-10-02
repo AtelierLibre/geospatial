@@ -7,3 +7,9 @@ __pycache__/
 
 # Ignore 'ss' directories anywhere
 **/ss/
+
+# Ignore everything inside 0_data/
+0_data/**
+
+# But don’t ignore any README.md (at any level inside data/)
+!0_data/**/README.md
