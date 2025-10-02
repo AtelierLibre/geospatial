@@ -1,0 +1,28 @@
+name: sds
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  # Core
+  - python
+  - tqdm
+  
+  # Notebooks / UX
+  - jupyterlab
+  
+  # Data
+  - geopandas
+  - pysal
+
+  # Viz
+  - matplotlib
+  - seaborn
+  - lonboard
+  - pyarrow
+
+  # Networks & OSM
+  - networkx
+  - osmnx
+  - igraph
